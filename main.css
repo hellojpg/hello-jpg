@@ -763,6 +763,12 @@ nav .nav-btn {
   background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M27.3137 6.54421L6.5719 27.286C6.05146 27.8064 5.20671 27.8064 4.68628 27.286C4.16585 26.7656 4.16585 25.9208 4.68628 25.4004L25.4281 4.65859C25.9485 4.13816 26.7933 4.13816 27.3137 4.65859C27.8341 5.17902 27.8341 6.02378 27.3137 6.54421Z' fill='black'/%3E%3Cpath d='M4.68627 6.54421L25.4281 27.286C25.9485 27.8064 26.7933 27.8064 27.3137 27.286C27.8341 26.7656 27.8341 25.9208 27.3137 25.4004L6.57189 4.65859C6.05146 4.13816 5.20671 4.13816 4.68627 4.65859C4.16584 5.17902 4.16584 6.02378 4.68627 6.54421Z' fill='black'/%3E%3C/svg%3E%0A");
 }
 
+.disabled-link {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 @media screen and (max-width: 1024px) {
   .burger-btn {
     display: -webkit-box;
