@@ -769,13 +769,6 @@ nav .nav-btn {
   cursor: not-allowed;
 }
 
-.clickable-block {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 1024px) {
   .burger-btn {
     display: -webkit-box;
