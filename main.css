@@ -769,7 +769,10 @@ nav .nav-btn {
   cursor: not-allowed;
 }
 
-.clickable-item {
+.clickable-block {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   cursor: pointer;
 }
 
