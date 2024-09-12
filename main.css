@@ -769,6 +769,10 @@ nav .nav-btn {
   cursor: not-allowed;
 }
 
+.clickable-item {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
   .burger-btn {
     display: -webkit-box;
